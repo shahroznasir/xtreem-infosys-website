@@ -46,7 +46,7 @@ export default function Hero({ onOpenQuoteModal }) {
     {
       id: 1,
       badge: "Enterprise Device Fleets",
-      title: "Scale Apple, Dell, HP & Lenovo Fleets Across Delhi NCR",
+      title: "Scale Acer, Dell, HP, Lenovo & Apple Fleets",
       highlightWord: "PAN-NCR Staging.",
       kickerTitle: "Commercial Hardware Care & Warranty Support",
       kickerDesc: "Motherboard chip-level BGA repairs, panel replacements, battery swaps & certified OEM warranty logistics.",
@@ -54,7 +54,7 @@ export default function Hero({ onOpenQuoteModal }) {
       primaryHref: "#hardware",
       secondaryCta: "Request Device Quote",
       secondaryAction: () => onOpenQuoteModal("Commercial Device Fleet AMC"),
-      statsKicker: "Dell • HP • Lenovo • Apple Certified",
+      statsKicker: "Acer • Dell • HP • Lenovo • Apple Certified",
       slaBadge: "45+ Buffer Units"
     },
     {
