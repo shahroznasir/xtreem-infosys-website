@@ -11,7 +11,7 @@ export const companyInfo = {
   email: "xtreem.infosys@gmail.com",
   phones: [
     { display: "+91 88604 84613", raw: "918860484613", primary: true },
-    { display: "+91 96545 88656", raw: "919654588656", primary: false }
+    { display: "+91 95407 34565", raw: "919540734565", primary: false }
   ],
   whatsapp: "918860484613",
   address: {

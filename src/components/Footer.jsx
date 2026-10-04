@@ -7,7 +7,7 @@ export default function Footer() {
   const address = companyInfo.address || {};
   const phones = companyInfo.phones || [
     { display: "+91 88604 84613", raw: "918860484613" },
-    { display: "+91 96545 88656", raw: "919654588656" }
+    { display: "+91 95407 34565", raw: "919540734565" }
   ];
 
   return (
