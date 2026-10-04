@@ -46,10 +46,6 @@ export default function Footer() {
                 <ShieldCheck className="w-3.5 h-3.5 text-[#D4AF37]" />
                 <span>GSTIN: {compliance.gstin} (100% Tax Compliant)</span>
               </div>
-              <div className="flex items-center gap-2 text-[11px] text-slate-400 font-mono">
-                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
-                <span>PAN: {compliance.pan} &bull; Bank of Baroda</span>
-              </div>
             </div>
           </div>
 
