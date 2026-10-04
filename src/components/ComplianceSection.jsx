@@ -84,7 +84,7 @@ export default function ComplianceSection({ onOpenQuoteModal }) {
                 <h3 className="text-base font-bold font-sans text-slate-900">
                   Business Identity
                 </h3>
-                <p className="text-xs text-slate-500">Slide 06 Company Details</p>
+                <p className="text-xs text-slate-500">Official Company Registration</p>
               </div>
             </div>
 
@@ -145,7 +145,7 @@ export default function ComplianceSection({ onOpenQuoteModal }) {
                 <h3 className="text-base font-bold font-sans text-slate-900">
                   Tax &amp; Compliance
                 </h3>
-                <p className="text-xs text-slate-500">Slide 07 Statutory Records</p>
+                <p className="text-xs text-slate-500">Government &amp; Tax Records</p>
               </div>
             </div>
 
@@ -224,7 +224,7 @@ export default function ComplianceSection({ onOpenQuoteModal }) {
                 <h3 className="text-base font-bold font-sans text-slate-900">
                   Corporate Banking
                 </h3>
-                <p className="text-xs text-slate-500">Slide 07 Banking Details</p>
+                <p className="text-xs text-slate-500">Empanelment Banking Coordinates</p>
               </div>
             </div>
 
