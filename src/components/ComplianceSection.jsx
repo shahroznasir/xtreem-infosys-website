@@ -178,31 +178,18 @@ export default function ComplianceSection({ onOpenQuoteModal }) {
                 </div>
               </div>
 
-              {/* PAN with 1-Click Copy */}
-              <div className="p-4 rounded-2xl border bg-slate-50 border-slate-200">
+              {/* GST Filing Status & ITC Eligibility */}
+              <div className="p-4 rounded-2xl border bg-slate-50 border-slate-200 space-y-2">
                 <div className="flex items-center justify-between">
                   <span className="text-[11px] uppercase tracking-wider font-semibold text-slate-500">
-                    Permanent Account Number (PAN)
+                    Filing Status &amp; ITC Eligibility
                   </span>
                   <span className="text-[10px] px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-bold border border-emerald-300">
-                    VERIFIED
+                    ACTIVE
                   </span>
                 </div>
-                <div className="flex items-center justify-between mt-2">
-                  <span className="text-base font-extrabold font-mono text-[#B38728] tracking-wider">
-                    {compliance.pan}
-                  </span>
-                  <button
-                    onClick={() => handleCopy(compliance.pan, 'pan')}
-                    className={`p-2 rounded-lg border transition-all ${
-                      copiedField === 'pan'
-                        ? 'bg-emerald-100 text-emerald-800 border-emerald-400'
-                        : 'bg-white hover:bg-slate-100 border-slate-300 text-slate-700'
-                    }`}
-                    title="Copy PAN"
-                  >
-                    {copiedField === 'pan' ? <Check className="w-4 h-4 text-emerald-600" /> : <Copy className="w-4 h-4" />}
-                  </button>
+                <div className="text-xs text-slate-700 font-medium leading-relaxed">
+                  Regular Taxpayer under GST Act. All enterprise purchase orders and AMC contracts are issued with standard GST tax invoices eligible for Input Tax Credit (ITC).
                 </div>
               </div>
             </div>

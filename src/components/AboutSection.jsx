@@ -207,7 +207,7 @@ export default function AboutSection({ onOpenQuoteModal }) {
             </div>
             <div>
               <h4 className="text-sm font-bold text-slate-900 font-sans">100% Tax Compliant</h4>
-              <p className="text-xs text-slate-600 mt-1">Active GSTIN (07BVIPA7562H1ZI) &amp; PAN compliance allowing full corporate Input Tax Credit.</p>
+              <p className="text-xs text-slate-600 mt-1">Active GSTIN (07BVIPA7562H1ZI) registration allowing full corporate Input Tax Credit (ITC).</p>
             </div>
           </div>
         </div>

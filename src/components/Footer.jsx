@@ -115,8 +115,6 @@ export default function Footer() {
           <div className="flex flex-wrap items-center gap-3">
             <span>GSTIN: <strong className="text-amber-300">{compliance.gstin}</strong></span>
             <span>&bull;</span>
-            <span>PAN: <strong className="text-white">{compliance.pan}</strong></span>
-            <span>&bull;</span>
             <span>Bank: <strong className="text-white">{compliance.bankName}</strong></span>
           </div>
         </div>
