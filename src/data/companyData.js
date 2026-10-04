@@ -34,7 +34,7 @@ export const companyInfo = {
     { value: "2021", label: "Founded in New Delhi", sub: "5+ Years of Excellence" },
     { value: "99.9%", label: "SLA Uptime Guarantee", sub: "Mission-Critical Support" },
     { value: "< 2 Hrs", label: "Emergency Response SLA", sub: "On-Site Rapid Deployment" },
-    { value: "8+", label: "Marquee Enterprise Clients", sub: "Govt & Fortune 500 Trusted" },
+    { value: "10+", label: "Marquee Enterprise Clients", sub: "Govt & Fortune 500 Trusted" },
     { value: "2,500+", label: "Hardware Assets Maintained", sub: "Laptops, Desktops & Servers" },
     { value: "100%", label: "Statutory Tax Compliant", sub: "Verified GSTIN & PAN" }
   ],

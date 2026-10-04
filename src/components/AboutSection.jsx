@@ -23,7 +23,7 @@ export default function AboutSection({ onOpenQuoteModal }) {
     { digit: "99.9", unit: "%", title: "Guaranteed Uptime SLA", desc: "Contractual High-Availability" },
     { digit: "< 2", unit: "Hrs", title: "Emergency Response SLA", desc: "Rapid On-Site Arrival in Delhi NCR" },
     { digit: "5,000", unit: "+", title: "Hardware Endpoints", desc: "Laptops, Desktops, AIOs & Servers" },
-    { digit: "8", unit: "+", title: "Marquee Enterprise Clients", desc: "C-DOT, Greenlam, Concentrix & more" }
+    { digit: "10", unit: "+", title: "Marquee Enterprise Clients", desc: "C-DOT, Greenlam, Concentrix & more" }
   ];
 
   return (
