@@ -8,7 +8,12 @@ export const companyInfo = {
   incorporatedDate: "24-09-2021",
   owner: "Asif",
   designation: "Owner",
-  email: "xtreem.infosys@gmail.com",
+  email: "asif@xtreeminfosys.com",
+  secondaryEmail: "xtreem.infosys@gmail.com",
+  emails: [
+    "asif@xtreeminfosys.com",
+    "xtreem.infosys@gmail.com"
+  ],
   phones: [
     { display: "+91 88604 84613", raw: "918860484613", primary: true },
     { display: "+91 95407 34565", raw: "919540734565", primary: false }

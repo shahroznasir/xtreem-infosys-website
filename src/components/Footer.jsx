@@ -89,10 +89,15 @@ export default function Footer() {
                 <Phone className="w-3.5 h-3.5 text-[#D4AF37]" />
                 <a href={`tel:${phones[0].raw}`} className="hover:underline">{phones[0].display}</a>
               </p>
-              <p className="font-mono text-slate-300 flex items-center gap-2">
-                <Mail className="w-3.5 h-3.5 text-[#D4AF37]" />
-                <a href={`mailto:${companyInfo.email}`} className="hover:underline">{companyInfo.email}</a>
-              </p>
+              <div className="font-mono text-slate-300 space-y-1">
+                <div className="flex items-center gap-2">
+                  <Mail className="w-3.5 h-3.5 text-[#D4AF37]" />
+                  <a href={`mailto:${companyInfo.email}`} className="hover:underline">{companyInfo.email}</a>
+                </div>
+                <div className="pl-5.5 text-[11px] text-slate-400">
+                  <a href="mailto:xtreem.infosys@gmail.com" className="hover:underline">xtreem.infosys@gmail.com</a>
+                </div>
+              </div>
               <div className="pt-2 text-[11px] text-slate-400">
                 Leadership: <strong className="text-white">{companyInfo.owner}</strong> ({companyInfo.designation})
               </div>

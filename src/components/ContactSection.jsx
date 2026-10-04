@@ -139,9 +139,14 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <div className="font-bold text-slate-900">Official Inquiries</div>
-                  <a href={`mailto:${companyInfo.email}`} className="mt-0.5 block font-mono text-sky-700 hover:underline">
-                    {companyInfo.email}
-                  </a>
+                  <div className="flex flex-col gap-1 mt-1 font-mono text-xs">
+                    <a href="mailto:asif@xtreeminfosys.com" className="text-sky-700 font-bold hover:underline">
+                      asif@xtreeminfosys.com
+                    </a>
+                    <a href="mailto:xtreem.infosys@gmail.com" className="text-slate-600 hover:underline">
+                      xtreem.infosys@gmail.com
+                    </a>
+                  </div>
                 </div>
               </div>
 
